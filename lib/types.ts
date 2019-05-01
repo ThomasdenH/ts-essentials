@@ -1,5 +1,5 @@
 /** Essentials */
-export type Primitive = string | number | boolean | undefined | null;
+export type Primitive = string | number | boolean | undefined | null | unknown;
 
 /** Dictionaries related */
 export type Dictionary<T, K extends string | number = string> = { [key in K]: T };
